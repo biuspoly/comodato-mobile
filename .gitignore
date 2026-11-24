@@ -1,0 +1,23 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Rprofile
+renv/
+renv.lock
+
+# Segredos e configuracoes locais
+.env
+.Renviron
+*.pfx
+Argumentos DB.txt
+*.bat
+
+# Logs e temporarios
+*.log
+logs/
+
+# build do shinylive (gerado pela GitHub Action)
+docs/
+_site/

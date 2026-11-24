@@ -1,0 +1,30 @@
+{
+  "name": "Visualização de Comodatos",
+  "short_name": "Comodatos",
+  "description": "Sistema de Comodatos",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "img/icon-144.png",
+      "sizes": "144x144"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Comodatos",
+      "short_name": "Comodatos",
+      "description": "Visualiza comodatos assinados",
+      "url": "./",
+      "icons": [
+        {
+          "src": "img/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

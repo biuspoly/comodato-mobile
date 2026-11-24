@@ -1,0 +1,72 @@
+
+/*Tira o loader da pagina principal e outras*/
+/*#home .ptr-preloader {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}*/
+
+/*Botoes do navbar na direita*/
+/*.navbar-inner > *:last-child {
+  margin-left: auto !important;
+}*/
+
+/*cards do inicio*/
+.card_n_assinado .card,
+.card_n_assinado .card-header,
+.card_n_assinado .card-content,
+.card_n_assinado .card-footer,
+.card_n_assinado .block {
+  background-color: #ffebeb !important;
+  color: #b30000 !important;
+}
+
+.card_assinado .card,
+.card_assinado .card-header,
+.card_assinado .card-content,
+.card_assinado .card-footer,
+.card_assinado .block {
+  background-color: #d8ffd8 !important;
+  color: #002a00 !important;
+}
+
+/*toolbar e botoes em toda a largura*/
+.tab-link-highlight{
+  width: 0 !important;
+}
+
+#lista-grande .item-header {
+  font-size: 14px;
+  color: #262626;
+}
+
+#lista-grande .item-text {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/*background*/
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+  opacity: 0.3;
+}
+
+/*logo*/
+.logo-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.logo-image {
+  width: 120px;
+  height: auto;
+}
